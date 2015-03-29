@@ -1,0 +1,388 @@
+
+*{
+margin: 0;
+padding: 0;
+}
+
+body{
+background-color: #EDDAB6;
+min-width: 1000px;
+width: auto;
+ min-height: 600px;
+}
+
+
+.body{
+display: inline-block;
+width: 100%;
+}
+
+
+ul 
+{ 
+	margin-left:25%; 
+	width:100%;
+ }
+
+.header{
+display: table;
+margin-left: auto;
+margin-right: auto;
+}
+
+
+.header p{
+font-family: Helvetica;
+font-style: oblique;
+
+display: table;
+margin-left: auto;
+margin-right: auto;
+font-style: italic;
+color: #331919;
+position: relative;
+top: 20px;
+
+}
+
+
+.header h1{
+font-family: Times New Roman;
+font-style: oblique;
+float: right;
+position: relative;
+font-size: 70px;
+top: 30px;
+color: #331919;
+
+}
+
+
+.meni{
+display: table;
+position: relative;
+font-family: Helvetica;
+padding-right: 40px;
+margin-right: auto;
+margin-left: auto;
+top: 50px;
+
+
+}
+
+.meni li{
+display: inline-block;
+border-radius: 5px;
+background-color: #DDA185;
+padding:10px 10px;
+padding-right: 15px;
+padding-left: 15px;
+margin-left: 30px;
+}
+
+
+.meni li:hover{
+text-decoration: underline;
+}
+
+
+.meni a{
+text-decoration: none;
+font-size: 25px;
+color: #331919;
+}
+
+
+
+.navNaslov {
+font-size: 60px;
+font-family: Hind;
+font-style: italic;
+color: #331919;
+text-indent: 80px;
+position: relative;
+top: 100px;
+left: 0px;
+background-color: #AB3334;
+
+padding: 10px;
+}
+
+.news{
+position: relative;
+top:60px;
+margin-left: auto;
+margin-right: auto;
+width: 50%;
+padding-bottom: 30px;
+border-spacing: 10px;
+
+}
+
+.naslov{
+font-size: 40px;
+font-family: Times New Roman;
+font-style: oblique;
+color: #331919;
+position: relative;
+top: 0px;
+}
+
+
+.clanak{
+border-bottom: 2px solid #AB3334;
+margin-left: auto;
+margin-right: auto;
+}
+
+.clanak1 {
+display: inline-block;
+width: 300px;
+height: 350px;
+font-family: Raleway;
+color: #253939;
+display: table-cell;
+padding: 20px 20px 20px 20px;
+border-radius: 10px 10px 10px 10px;
+background-color: #DDA185;
+position: relative;
+border-spacing: 20px;
+
+}
+
+.link {
+text-decoration: none;
+color:#331919;
+}
+
+.link:hover {
+text-decoration: underline;
+
+}
+
+.autor{
+float: right;
+
+color: #331919;
+font-style: italic;
+}
+
+
+.datum {
+position: relative;
+font-size: 10px;
+color: #331919;
+}
+
+
+.slika {
+	position: relative;
+	top: -200px;
+	margin-left: 5%;
+	margin-right: auto;
+	padding: 10px 10px 10px 10px;
+	height: 200px;
+	width: 200px;
+}
+
+#tabela {
+border: 2px solid #331919;
+position: relative;
+margin-left: auto;
+margin-right: auto;
+font-size: 20px;
+top: 20%;
+}
+
+th, td {
+
+border: 1px solid #331919;
+margin: 10px 10px 20px 20px;
+ padding: 8px;
+ text-align: center;
+  border-collapse: collapse;
+
+}
+
+th {
+font-size: 30px;
+background-color: #DDA185;
+
+}
+
+#kontaktPor {
+position: relative;
+width: 50%;
+border: 2px solid black;
+border-radius: 5px;
+margin-left: 35%;
+margin-top: -2%;
+margin-bottom: 5%;
+padding: 1% 1% 1% 1%;
+font-family: Times New Roman;
+font-weight: bold;
+font-style: oblique;
+color: #331919;
+
+}
+
+
+#kontakti {
+	width: 20%;
+	margin-left: 5%;
+	margin-top: -7%;
+
+}
+
+
+#forma {
+position: relative;
+border: 2px solid black;
+width: 25%;
+height: 25%;
+margin-left: 35%;
+padding: 2% 2% 2% 2%;
+background-color:#DDA185;
+
+font-family: Times New Roman;
+font-style: oblique;
+color: #331919;
+
+}
+
+
+.txtB {
+	position: relative;
+
+	float: right;
+}
+
+
+#dugmeP {
+	color: #331919;
+	background-color: #AB3334;
+	height: 30px;
+	width: 100px;
+	position: relative;
+	float: right;
+	top: -10px;
+	margin: 2% 2% 2% 2%;
+	padding: 2% 2% 2% 2%;
+}
+
+
+#tabelaSlika {
+position: relative;
+margin-right: auto;
+margin-left: auto;
+top: 20%;
+}
+
+.slikaT {
+height: 100px;
+width: 100px;
+}
+
+.slikaT:hover 
+{
+height: auto;
+width: auto;
+
+}
+
+#slikaO {
+	
+	margin-right: 3%;
+	margin-left: 50%;
+	position: relative;
+	margin-top: 0%;
+}
+
+#oNamaPodaci
+{
+position: relative;
+font-family: Helvetica;
+font-style: oblique;
+right: 25%;
+width: 35%;
+left: 2%;
+top: -600px;
+border: 2px solid #331919;
+padding: 2% 2% 2% 2%;
+margin-left: 3%;
+margin-right:  5%;
+margin-top: 0%;
+margin-bottom:  2%;
+}
+
+#oNamaPodaci li{
+position: relative;
+left: 5%;
+
+}
+
+
+#lista 
+{
+	text-decoration: none;
+}
+
+#partneri 
+{
+	position: relative;
+	top: -600px;
+}
+
+
+#gealan {
+	width: 15%;
+	height: 5%;
+	left: -20%;
+    position: relative;
+    list-style-image: url(Stranica/arrow.jpg);
+
+   }
+
+
+
+#alumil {
+	width: 15%;
+	height: 5%;
+	left: -20%;
+	top: 10%;
+    position: relative;
+    list-style-image: url(Stranica/arrow.jpg);
+   }
+
+   #alumil a{
+
+   	text-decoration: none;
+   	color: black;
+   }
+
+   #gealan a{
+
+   	text-decoration: none;
+   color: black;
+   }
+
+
+   #alumil a:hover{
+
+   	text-decoration: underline;
+   	
+   }
+
+   #gealan a:hover{
+
+   	text-decoration: underline;
+   }
+
+
+
+   #partneri {
+   	font-size: 20px;
+   	position: relative;
+   	left: 5%;
+
+   }
