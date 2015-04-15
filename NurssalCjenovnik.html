@@ -1,0 +1,240 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <link href="NurssalCSS.css" rel="stylesheet">
+    <title> Nurssal d.o.o. - Vas pogled u svijet </title>
+    <script type="text/javascript" src="NurssalJS.js"></script>
+    <script>
+        window.onload = function(){
+            document.getElementById("trenutnaPonuda").addEventListener('click',pokaziPonudu);
+            document.getElementById("prozori").addEventListener('click',pokaziProzore);
+            document.getElementById("vrata").addEventListener('click',pokaziVrata);
+            document.getElementById("pregradniZidovi").addEventListener('click',pokaziPregradneZidove);
+            document.getElementById("prozori").style.display = "none";
+            document.getElementById("vrata").style.display = "none";
+            document.getElementById("pregradniZidovi").style.display = "none";
+            document.getElementById("trenutnaPonuda").innerHTML = "+ Trenutna ponuda";
+            document.getElementById("aluProzori").style.display = "none";
+            document.getElementById("pvcProzori").style.display = "none";
+            document.getElementById("drveniProzori").style.display = "none";
+            document.getElementById("kliznaVrata").style.display = "none";
+            document.getElementById("garaznaVrata").style.display = "none";
+            document.getElementById("balkonskaVrata").style.display = "none";
+            document.getElementById("pokretniZidovi").style.display = "none";
+            document.getElementById("fiksniZidovi").style.display = "none";
+            document.getElementById("drveniProzori").addEventListener('click', pokaziDrveniProzor);
+        }
+    </script>
+</head>
+<body>
+<div class="body">
+<div class="header">
+<h1> Nurssal d.o.o. </h1>
+<p>Vas pogled u svijet</p>
+</div>
+
+
+
+<div class="meni">
+<ul>
+<li><a href="NurssalNaslovna.html">Naslovna</a></li>
+<li><a href="NurssalONama.html">O Nama</a></li>
+<li><a href="NurssalKontakt.html">Kontakt</a></li>
+<li><a href="NurssalFotografije.html">Fotografije</a></li>
+<li><a href="NurssalCjenovnik.html">Cjenovnik</a></li>
+
+</ul>
+</div>
+
+
+<h1 class ="navNaslov">Cjenovnik</h1>
+<div class = "slika">
+<img src ="Stranica/logo.png" alt ="">
+</div>
+
+ <table id="tabela">
+  <tr>
+    <th>SIFRA</th>
+    <th>DIMENZIJE</th>
+    <th>CIJENA</th>
+    <th>CIJENA ZA GOTOVINU</th>
+  </tr>
+  <tr>
+    <td>10001</td>
+    <td>60 x 60</td>
+    <td>95,00</td>
+    <td>85,00</td>
+  </tr>
+
+  <tr>
+    <td>10002</td>
+    <td>60 x 80</td>
+    <td>109,00</td>
+    <td>99,00</td>
+  </tr>
+
+  <tr>
+    <td>10003</td>
+    <td>60 x 100</td>
+    <td>129,00</td>
+    <td>116,00</td>
+  </tr>
+
+  <tr>
+    <td>10004</td>
+    <td>60 x 120</td>
+    <td>140,00</td>
+    <td>125,00</td>
+  </tr>
+
+  <tr>
+    <td>10005</td>
+    <td>70 x 210</td>
+    <td>214,00</td>
+    <td>193,00</td>
+  </tr>
+
+  <tr>
+    <td>10006</td>
+    <td>80 x 60</td>
+    <td>109,00</td>
+    <td>98,00</td>
+  </tr>
+
+  <tr>
+    <td>10007</td>
+    <td>80 x 80</td>
+    <td>122,00</td>
+    <td>109,00</td>
+  </tr>
+
+  <tr>
+    <td>10008</td>
+    <td>80 x 100</td>
+    <td>145,00</td>
+    <td>130,00</td>
+  </tr>
+
+
+  <tr>
+    <td>10009</td>
+    <td>80 x 120</td>
+    <td>156,00</td>
+    <td>140,00</td>
+  </tr>
+
+
+  <tr>
+    <td>10010</td>
+    <td>80 x 140</td>
+    <td>173,00</td>
+    <td>150,00</td>
+  </tr>
+
+
+
+  <tr>
+    <td>10011</td>
+    <td>80 x 210</td>
+    <td>109,00</td>
+    <td>98,00</td>
+  </tr>
+
+  <tr>
+    <td>10012</td>
+    <td>80 x 220</td>
+    <td>225,00</td>
+    <td>202,00</td>
+  </tr>
+
+  <tr>
+    <td>10013</td>
+    <td>90 x 200</td>
+    <td>231,00</td>
+    <td>208,00</td>
+  </tr>
+
+
+  <tr>
+    <td>10014</td>
+    <td>90 x 210</td>
+    <td>228,00</td>
+    <td>206,00</td>
+  </tr>
+
+
+  <tr>
+    <td>10015</td>
+    <td>100 x 60</td>
+    <td>236,00</td>
+    <td>212,00</td>
+  </tr>
+
+
+
+
+</table>
+
+
+
+<h2 id = "naslovPonuda"> Pregled trenutne ponude</h2>
+
+
+
+<div id = "pregledPonude">
+
+<p id = "trenutnaPonuda">+ Trenutna ponuda</p>
+    
+    <ul><p id = "prozori">+ Prozori</p>
+        <ul id = "aluProzori"><span>+ Aluminijski Prozori</span>
+            <li>Jednokrilni prozori</li>
+            <li>Dvokrilni prozori</li>
+        </ul>
+
+        <ul id = "pvcProzori"><p>+ PVC prozori</p>
+            <li>Jednokrilni prozori</li>
+            <li>Dvokrilni prozori</li>
+            <li>Kruzni prozori</li>
+        </ul>
+
+        <ul id = "drveniProzori"><p>+ Drveni prozori</p>
+            <li id ="izradaDrvenihProzora">Izrada prema narudzbi</li>
+        </ul>
+    </ul>
+    
+    
+    <ul><p id = "vrata">+ Vrata</p>
+        <ul id = "kliznaVrata"><p>+ Klizna vrata</p>
+            <li>Kancelarijska vrata</li>
+            <li>Sobna vrata</li>
+        </ul>
+        <ul id = "balkonskaVrata"><p>+ Balkonska vrata</p>
+            <li>Jednokrilna vrata</li>
+            <li>Dvokrilna vrata </li>
+        </ul>
+        <ul id = "garaznaVrata"><p>+ Garazna vrata</p>
+            <li>Automatsko otvaranje vrata</li>
+            <li>Manuelno otvaranje vrata</li>
+        </ul>
+    </ul>
+    
+
+    <ul><p id = "pregradniZidovi">+ Pregradni zidovi</p>
+        <ul id = "pokretniZidovi"><p>+ Pokretni pregradni zidovi</p>
+            <li>Svi modeli se rade po narudzbi</li>
+        </ul>
+        <ul id = "fiksniZidovi"><p>+ Fiksni zidovi</p>
+            <li>Svi modeli se rade po narudzbi</li>
+        </ul>
+    </ul>
+  </div>
+ 
+
+
+
+
+</div>
+
+</body>
+</html>
+
