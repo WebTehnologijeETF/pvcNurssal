@@ -1,0 +1,132 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<link href="NurssalCSS.css" rel="stylesheet">
+<script src = "SinglePage.js"></script>
+<script src = "TabelaJS.js"></script>
+<script type="text/javascript" src="NurssalJS.js"></script>
+<title> Nurssal d.o.o. - Vas pogled u svijet </title>
+</head>
+<body>
+<div class="body">
+<div class="header">
+<h1> Nurssal d.o.o. </h1>
+<p>Vas pogled u svijet</p>
+</div>
+
+
+
+<div class="meni">
+<ul>
+
+<li><a onclick = "AjaxNavigacija('NurssalNaslovna.html')">Naslovna</a></li>
+<li><a onclick = "AjaxNavigacija('NurssalONama.html')">O Nama</a></li>
+<li><a onclick = "AjaxNavigacija('NurssalKontakt.html')">Kontakt</a></li>
+<li><a onclick = "AjaxNavigacija('NurssalFotografije.html')">Fotografija</a></li>
+<li><a onclick = "AjaxNavigacija('NurssalCjenovnik.html')">Cjenovnik</a></li>
+<li><a onclick = "AjaxNavigacija('NurssalProizvodi.html')">Proizvodi</a></li>
+
+</ul>
+</div>
+
+
+<h1 class ="navNaslov">Proizvodi</h1>
+<div class = "slika">
+<img src ="Stranica/logo.png" alt="">
+</div>
+
+
+        <fieldset id = "unosProizvoda">
+         
+
+
+            <label for="Naziv">Naziv *: </label> <input id="naziv" type="text" class="unosPodataka" > <br><br>
+            <img class = "slika-upozorenja" id="slika-upozorenjeNaziv" src ="Stranica/error.png" alt ="">
+            <p class="porukaGreske" id = "porukaGreske-Naziv">Neispravan unos!</p>
+         
+            <label for="Opis">Opis: </label> <input id="opis" type="text" class="unosPodataka" > <br><br>
+           <img class = "slika-upozorenja" id="slika-upozorenjeOpis" src ="Stranica/error.png" alt ="">
+         	<p class = "porukaGreske" id = "porukaGreske-Opis">Neispravan unos!</p>
+          
+            <label for="Slika">Slika: </label> <input id="slika" type="text" class="unosPodataka" > <br><br>
+            <img class = "slika-upozorenja" id="slika-upozorenjeSlika" src ="Stranica/error.png" alt ="">
+            <p class = "porukaGreske" id = "porukaGreske-Slika">Neispravan unos!</p>
+          
+            <label for="Kolicina">Kolicina: </label> <input id="kolicina" type="text" class="unosPodataka" > <br><br>
+             <img class = "slika-upozorenja" id="slika-upozorenjeKolicina" src ="Stranica/error.png" alt ="">
+            <p class = "porukaGreske" id = "porukaGreske-Kolicina">Neispravan unos!</p>
+          
+
+
+            <label for="Cijena">Cijena: </label> <input id="cijena" type="text" class="unosPodataka"> <br><br>  
+            <img class = "slika-upozorenja" id="slika-upozorenjeCijena" src ="Stranica/error.png" alt ="">
+            <p class = "porukaGreske" id = "porukaGreske-Cijena">Neispravan unos!</p>
+         
+            
+            <input type="button" onclick = "dodajProizvod()" value="Dodaj proizvod!" id="dugmeProizvod">
+            <input type="button" onclick = "izmjeniProizvod()" value="Izmjeni proizvod!" id="dugmeProizvod">
+            <input type="button" onclick = "izbrisiProizvod()" value="Obrisi proizvod!" id="dugmeProizvod">
+        </fieldset>
+
+
+
+
+
+        <table id="tabelaProizvoda">
+            <thead>
+            <tr>
+                <th class = "kolona">ID</th>
+                <th class="kolona">Naziv</th>
+                <th class="kolona">Opis</th>
+                <th class="kolona">Slika</th>
+                <th class="kolona">Cijena</th>
+                <th class="kolona">Kolicina</th>
+            </tr>
+            </thead>
+            <tbody>
+
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            </tbody>
+        </table>
+
+
+
+
+
+
+</div>
+</body>
+</html>
+

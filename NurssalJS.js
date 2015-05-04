@@ -259,3 +259,4 @@ boolMail=true;
         xmlhttp.open("GET", "http://zamger.etf.unsa.ba/wt/postanskiBroj.php?mjesto=" + grad.value + "&postanskiBroj=" + postanskiBroj.value, true);
         xmlhttp.send();
     }
+

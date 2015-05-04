@@ -482,3 +482,46 @@ position: relative;
 {
 	display: none;
 }
+
+
+#unosProizvoda
+{
+width: 35%;
+margin-left: 30%;	
+margin-top: -7%;
+	padding: 2%;
+	border-radius: 4px;
+	background-color: #DDA185;
+}
+
+#dugmeProizvod
+{
+	position: relative;
+	color: #331919;
+	background-color: #AB3334;
+	height: 40px;
+	width: 125px;
+	position: relative;
+	margin-right: 6%;
+
+
+}
+
+#tabelaProizvoda
+{
+	position: relative;
+	width: 65%;
+	margin-left: 18%;	
+	margin-top: 5%;
+	padding: 2%;
+	border-radius: 4px;
+padding: 1% 1% 1% 1%;
+
+
+}
+
+#porukaGreske-Cijena
+{
+	display: block;
+	
+}
