@@ -137,11 +137,17 @@ function validacijaForme() {
 	boolTelefon = true;
 	boolIme = true;
 	boolPrezime=true;
+	boolGrad = true;
 	var ime = document.getElementById("ime");
 	var prezime = document.getElementById("prezime");
 	var email=document.getElementById("email");
 	var telefon = document.getElementById("telefon")
 	var poruka=document.getElementById("poruka");
+	var grad = document.getElementById("grad");
+
+
+
+
 
 	if (ime.value === "" || !validnostImena(ime.value))
 	{
@@ -198,8 +204,13 @@ boolMail=true;
 		boolTelefon=true;
 	}
 	
+	validacijaGrad();	
 	
-	if (boolTelefon===true && boolPrezime===true && boolIme===true && boolMail===true)
+	var boolGrad=true;
+	if (porukaGreske-Grad.style.display != "none")
+		boolGrad = false;
+
+	if (boolTelefon===true && boolPrezime===true && boolIme===true && boolMail===true && boolGrad === true)
 	{
 		alert("Uspjesno ste poslali poruku ! Hvala sto ste nas kontaktirali.");
 		document.getElementById("ime").value = "";
@@ -207,7 +218,44 @@ boolMail=true;
 		document.getElementById("email").value = "";
 		document.getElementById("telefon").value="";
 		document.getElementById("poruka").value = "";
+		document.getElementById("grad").value = "";
+		document.getElementById("postanskiBroj").value = "";
+			}
 
-		
-	}
 }
+
+    function validacijaGrad() {
+        var grad = document.getElementById("grad");
+        var postanskiBroj = document.getElementById("postanskiBroj");
+        var xmlhttp;
+
+        if (window.XMLHttpRequest)
+        {
+            xmlhttp = new XMLHttpRequest();
+        }
+        else
+        {
+            xmlhttp = new ActiveXObject("Microsoft.XMLHTTP");
+        }
+
+        xmlhttp.onreadystatechange = function() {
+            if(xmlhttp.status == 200 && xmlhttp.readyState == 4) {
+                var odgovor = JSON.parse(xmlhttp.responseText);
+                if (Object.keys(odgovor)[0] == "ok")
+                    {
+                    		document.getElementById("slika-upozorenjeGrad").style.display = "none";
+						document.getElementById("porukaGreske-Grad").style.display = "none";
+
+                    }
+                    else
+                    {
+
+               			document.getElementById("slika-upozorenjeGrad").style.display = "block";
+						document.getElementById("porukaGreske-Grad").style.display = "block";
+                    }
+            }
+         };
+
+        xmlhttp.open("GET", "http://zamger.etf.unsa.ba/wt/postanskiBroj.php?mjesto=" + grad.value + "&postanskiBroj=" + postanskiBroj.value, true);
+        xmlhttp.send();
+    }
