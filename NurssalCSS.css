@@ -267,9 +267,6 @@ color: #331919;
 	height: 30px;
 	width: 100px;
 	position: relative;
-
-
-	
 }
 
 
@@ -534,4 +531,30 @@ padding: 1% 1% 1% 1%;
     position: relative;
     border-spacing: 20px;
     width: 500px;
+}
+
+.poredajLijevo{
+    text-align: right;
+    margin-left: 2%;
+}
+
+.provjera{
+    font-family: Raleway;
+}
+
+.pregled{
+    font-weight: bold;
+    font-family: 'Rokkitt', serif;
+    border: 0;
+    background-color: transparent;
+    font-size: large;
+    margin-left: 5px;
+}
+
+#submitIt{
+    color: #331919;
+    background-color: #AB3334;
+    height: 30px;
+    width: 100px;
+    margin-left: 40%;
 }

@@ -19,7 +19,7 @@
 
             <li><a onclick = "AjaxNavigacija('NurssalNaslovna.php')">Naslovna</a></li>
             <li><a onclick = "AjaxNavigacija('NurssalONama.html')">O Nama</a></li>
-            <li><a onclick = "AjaxNavigacija('NurssalKontakt.html')">Kontakt</a></li>
+            <li><a onclick = "AjaxNavigacija('NurssalKontakt.php')">Kontakt</a></li>
             <li><a onclick = "AjaxNavigacija('NurssalFotografije.html')">Fotografija</a></li>
             <li><a onclick = "AjaxNavigacija('NurssalCjenovnik.html')">Cjenovnik</a></li>
             <li><a onclick = "AjaxNavigacija('NurssalProizvodi.html')">Proizvodi</a></li>
