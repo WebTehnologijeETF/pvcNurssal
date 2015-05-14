@@ -131,8 +131,9 @@ top: 0px;
 
 .clanak{
 border-bottom: 2px solid #AB3334;
-margin-left: auto;
-margin-right: auto;
+margin-left: 20%;
+    width: 100%;
+    font-family: Raleway;
 }
 
 .clanak1 {
@@ -147,12 +148,13 @@ border-radius: 10px 10px 10px 10px;
 background-color: #DDA185;
 position: relative;
 border-spacing: 20px;
-
 }
 
 .link {
-text-decoration: none;
-color:#331919;
+    text-decoration: none;
+    color:#331919;
+    background-color: transparent;
+    border: 0;
 }
 
 .link:hover {
@@ -518,4 +520,18 @@ margin-top: -7%;
 padding: 1% 1% 1% 1%;
 
 
+}
+
+#vijest{
+    display: inline-block;
+    height: 350px;
+    font-family: Raleway;
+    color: #253939;
+    display: table-cell;
+    padding: 20px 20px 20px 20px;
+    border-radius: 10px 10px 10px 10px;
+    background-color: #DDA185;
+    position: relative;
+    border-spacing: 20px;
+    width: 500px;
 }

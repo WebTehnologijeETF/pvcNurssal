@@ -32,7 +32,7 @@ function validacijaProizvoda()
         document.getElementById("porukaGreske-Naziv").style.display = "none";
     }
 
-    if (!ValidirajCijenu(kolicina.value))
+    if (!validirajCijenu(kolicina.value))
     {
         document.getElementById("slika-upozorenjeKolicina").style.display = "block";
         document.getElementById("porukaGreske-Kolicina").style.display = "block";
@@ -44,7 +44,7 @@ function validacijaProizvoda()
         document.getElementById("porukaGreske-Kolicina").style.display = "none";
     }
 
-    if (!ValidirajCijenu(cijena.value))
+    if (!validirajCijenu(cijena.value))
     {
         document.getElementById("slika-upozorenjeCijena").style.display = "block";
         document.getElementById("porukaGreske-Cijena").style.display = "block";
@@ -78,7 +78,7 @@ function dodajProizvod() {
         var proizvod = {
             naziv: naziv,
             opis: opis,
-            slika: slika
+            slika: slika,
             cijena: cijena,
             kolicina: kolicina
         };
@@ -177,7 +177,7 @@ function izmjeniProizvod(){
             naziv: naziv,
             opis: opis,
             slika: slika,
-            kolicina: kolicina
+            kolicina: kolicina,
             cijena: cijena
         };
         var xmlhttp;
@@ -226,4 +226,28 @@ function ucitajProizvode() {
 }
 
 function popuniTabelu(proizvodi){
+    var tabela = document.getElementById("")
+
+}
+
+function popuniTabelu(proizvodi){
+
+    var tabela = document.getElementById("tabelaProizvoda");
+    var red = tabela.insertRow(1);
+    var idCell = red.insertCell(0);
+    var nazivCell = red.insertCell(1);
+    var slikaCell = red.insertCell(2);
+    var opisCell = red.insertCell(3);
+    var cijenaCell = red.insertCell(4);
+    var kolicinaCell = red.insertCell(5);
+
+    for (i = 0; i < proizvodi.length; i++)
+    {
+        idCell.innerHTML = proizvodi[i].id;
+        nazivCell.innerHTML = proizvodi[i].naziv;
+        slikaCell.innerHTML = "<img src="+ lista[i].slika + " />";
+        opisCell.innerHTML = proizvodi[i].opis;
+        cijenaCell.innerHTML = proizvodi[i].cijena;
+        kolicinaCell.innerHTML = proizvodi[i].kolicina;
+    }
 }
