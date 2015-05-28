@@ -7,13 +7,14 @@ $db = "nurssalbaza";
 
 // Create connection
 $conn = new mysqli($servername, $username, $password, $db);
+$conn->set_charset("utf8");
 
 // Check connection
 if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 }
 
-$sql = "SELECT v.Naslov as Naslov, v.Uvod as Uvod, v.Tekst as Tekst, v.UrlSlike as Url, v.DatumObjave as Datum, a.Ime as Ime, a.Prezime as Prezime FROM vijest v, autor a where a.ID = v.AutorID";
+$sql = "SELECT v.ID as vijestID, v.Naslov as Naslov, v.Uvod as Uvod, v.Tekst as Tekst, v.UrlSlike as Url, v.DatumObjave as Datum, a.Ime as Ime, a.Prezime as Prezime FROM vijest v, autor a where a.ID = v.AutorID";
 
 $result = $conn->query($sql);
 
@@ -41,6 +42,8 @@ for ($i = 0;$i<$brojac;$i++)
     $slika = $vijesti[$i]["Url"];
     $sadrzaj = $vijesti[$i]["Uvod"];
     $datum = $vijesti[$i]["Datum"];
+    $id = $vijesti[$i]["vijestID"];
+
     $sadrzajVijesti = $vijesti[$i]["Tekst"];
     if (empty($sadrzajVijesti) || $sadrzajVijesti == null)
         $omoguciDetaljno = 'display:none';
@@ -48,6 +51,7 @@ for ($i = 0;$i<$brojac;$i++)
 
     $sviClanci .= "<form method='post' action='NurssalDetaljnaVijest.php'>
     <div class='clanak1'>
+        <input type='hidden' name='idVijesti' value='$id'>
         <input type='hidden' name='autor' value='$autor'>
         <input type='hidden' name='naslov' value='$naslov'>
         <input type='hidden' name='slika' value='$slika'>
@@ -95,6 +99,8 @@ echo <<<_HTML_
 <li><a onclick = "AjaxNavigacija('NurssalFotografije.html')">Fotografija</a></li>
 <li><a onclick = "AjaxNavigacija('NurssalCjenovnik.html')">Cjenovnik</a></li>
 <li><a onclick = "AjaxNavigacija('NurssalProizvodi.html')">Proizvodi</a></li>
+<li><a onclick = "AjaxNavigacija('NurssalAdmin.php')">Administrator</a></li>
+
 
 </ul>
 </div>
@@ -103,6 +109,7 @@ echo <<<_HTML_
 <div class = "slika">
 <img src ="Stranica/logo.png" alt="">
 </div>
+
 
 <div class="news">
 <div class="naslov">vijesti</div>

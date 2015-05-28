@@ -141,12 +141,9 @@ function validacijaForme() {
 	var ime = document.getElementById("ime");
 	var prezime = document.getElementById("prezime");
 	var email=document.getElementById("email");
-	var telefon = document.getElementById("telefon")
+	var telefon = document.getElementById("telefon");
 	var poruka=document.getElementById("poruka");
 	var grad = document.getElementById("grad");
-
-
-
 
 
 	if (ime.value === "" || !validnostImena(ime.value))

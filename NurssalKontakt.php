@@ -10,13 +10,13 @@ $naslovna = "
 
 <div class='meni'>
 <ul>
-<li><a onclick = 'AjaxNavigacija('NurssalNaslovna.php')'>Naslovna</a></li>
-<li><a onclick = 'AjaxNavigacija('NurssalONama.html')'>O Nama</a></li>
-<li><a onclick = 'AjaxNavigacija('NurssalKontakt.php')'>Kontakt</a></li>
-<li><a onclick = 'AjaxNavigacija('NurssalFotografije.html')''>Fotografija</a></li>
-<li><a onclick = 'AjaxNavigacija('NurssalCjenovnik.html')'>Cjenovnik</a></li>
-<li><a onclick = 'AjaxNavigacija('NurssalProizvodi.html')'>Proizvodi</a></li>
-
+<li><a onclick = 'AjaxNavigacija(\"NurssalNaslovna.php\")'>Naslovna</a></li>
+<li><a onclick = 'AjaxNavigacija(\"NurssalONama.html\")'>O Nama</a></li>
+<li><a onclick = 'AjaxNavigacija(\"NurssalKontakt.php\")'>Kontakt</a></li>
+<li><a onclick = 'AjaxNavigacija(\"NurssalFotografije.html\")'>Fotografija</a></li>
+<li><a onclick = 'AjaxNavigacija(\"NurssalCjenovnik.html\")'>Cjenovnik</a></li>
+<li><a onclick = 'AjaxNavigacija(\"NurssalProizvodi.html\")'>Proizvodi</a></li>
+<li><a onclick = 'AjaxNavigacija(\"NurssalAdmin.php\")'>Administrator</a></li>
 </ul>
 </div>
 
@@ -176,20 +176,20 @@ $naslovna
 <div id = "kontakti">
 	<p>Kontakt telefoni: <br/>+382 69 634 957 <br/><br/>Adresa: <br/>Ibarska bb <br/>84310 Rozaje<br/>Crna Gora</p> 
 </div>
-<form onsubmit="return validacijaForme() method="POST" action="NurssalKontakt.php">
+<form method="POST" action="NurssalKontakt.php" onsubmit="return validacijaForme()">
 
         <fieldset id = "fieldset">
             <label for="Ime">Ime *: </label> <input name="ime" id="ime" type="text" class="unosPodataka" value=$ime> <br><br>
             <img style=$imeSlika class = "slika-upozorenja" id="slika-upozorenjeIme" src ="Stranica/error.png" alt ="">
-            <p class="porukaGreske" id = "porukaGreske-Ime">$imeGreska</p>
+            <p class="porukaGreske" id = "porukaGreske-Ime" style=$imeSlika>$imeGreska</p>
          
             <label for="Prezime">Prezime *: </label> <input name="prezime" id="prezime" type="text" class="unosPodataka" value=$prezime> <br><br>
            <img style=$prezimeSlika class = "slika-upozorenja" id="slika-upozorenjePrezime" src ="Stranica/error.png" alt ="">
-         	<p class = "porukaGreske" id = "porukaGreske-Prezime">$prezimeGreska</p>
+         	<p class = "porukaGreske" id = "porukaGreske-Prezime" style=$prezimeSlika>$prezimeGreska</p>
           
             <label for="Grad">Grad *: </label> <input name="grad" id="grad" type="text" class="unosPodataka" value=$grad> <br><br>
             <img style=$gradSlika class = "slika-upozorenja" id="slika-upozorenjeGrad" src ="Stranica/error.png" alt ="">
-            <p class = "porukaGreske" id = "porukaGreske-Grad">$gradGreska</p>
+            <p class = "porukaGreske" id = "porukaGreske-Grad" style=$gradSlika>$gradGreska</p>
           
             <label for="PostanskiBroj">Postanski broj *: </label> <input name="postanski" id="postanskiBroj" type="text" class="unosPodataka" value=$postanski> <br><br>
              <img class = "slika-upozorenja" id="slika-upozorenjePostanskiBroj" src ="Stranica/error.png" alt ="">
@@ -199,17 +199,17 @@ $naslovna
 
             <label for="E-mail">E-mail *: </label> <input name="mail" id="email" type="text" class="unosPodataka" value=$mail> <br><br>
             <img style=$mailSlika class = "slika-upozorenja" id="slika-upozorenjeEmail" src ="Stranica/error.png" alt ="">
-            <p class = "porukaGreske" id = "porukaGreske-email">$mailGreska</p>
+            <p class = "porukaGreske" id = "porukaGreske-email" style=$mailSlika>$mailGreska</p>
          
             <label for="Telefon">Kontakt telefon *: </label> <input name="telefon" id="telefon" type="text" class="unosPodataka" value=$telefon> <br><br>
             <img style=$telefonSlika class = "slika-upozorenja" id="slika-upozorenjeTelefon" src ="Stranica/error.png" alt ="">
-            <p class = "porukaGreske" id = "porukaGreske-telefon">$telefonGreska</p>
+            <p class = "porukaGreske" id = "porukaGreske-telefon" style=$telefonSlika>$telefonGreska</p>
          
 
             <label>Poruka: </label> <textarea name="komentar" id="poruka" class="unosPodataka">$poruka</textarea> <br><br>
 
             
-            <input type="submit" value="Posalji!" id="dugmeP">
+            <input type="submit" value="Posalji!" id="dugmeP" >
         </fieldset>
 
 

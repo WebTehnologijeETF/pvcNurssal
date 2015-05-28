@@ -83,6 +83,8 @@ margin-left: 30px;
 
 .meni li:hover{
 text-decoration: underline;
+    cursor:pointer;
+
 }
 
 
@@ -110,7 +112,6 @@ padding: 10px;
 
 .news{
 position: relative;
-top:60px;
 margin-left: auto;
 margin-right: auto;
 width: 50%;
@@ -159,6 +160,7 @@ border-spacing: 20px;
 
 .link:hover {
 text-decoration: underline;
+    cursor:pointer;
 
 }
 
@@ -557,4 +559,113 @@ padding: 1% 1% 1% 1%;
     height: 30px;
     width: 100px;
     margin-left: 40%;
+}
+
+#brojKomentara
+{
+    font-size: 20px;
+
+}
+
+#brojKomentara:hover
+{
+    text-decoration:underline;
+    color: crimson;
+    font-size: 20px;
+}
+
+#komentari
+{
+    display: none;
+}
+
+#divKomentariKlik
+{
+    height: 35px;
+    font-family: Raleway;
+    color: #253939;
+    padding: 12px 12px 22px 10px;
+    border-radius: 5px 5px 5px 5px;
+    background-color: #DDA185;
+    position: relative;
+    border-spacing: 10px;
+    width: 520px;
+    margin-top: 2%;
+ /*   margin-right: auto;
+   */ margin-left: 21%;
+}
+
+.Komentar {
+    border: #DDA185 solid medium;
+    font-family: 'Rokkitt', serif;
+    width: 65%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3%;
+    padding-left: 2%;
+}
+
+#UnosKomentara {
+    background-color: #DDA185;
+    font-family: 'Rokkitt', serif;
+    width: 65%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3%;
+    padding-left: 2%;
+    height: 300px;
+
+}
+
+.inputKomentar{
+    padding-right: 25%;
+    margin-right: 10%;
+    float: right;
+
+}
+
+#UnosKomentara {
+    display: none;
+}
+
+.Komentar {
+    display: none;
+}
+
+#unosSifre
+{
+    font-family: 'Rokkitt', serif;
+    width: 25%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 20px;
+    padding-top: 2%;
+    padding-bottom: -3%;
+    padding-left: 2%;
+    height: 170px;
+    margin-bottom: 5%;
+    border: 5px solid #331919;
+}
+
+.login
+{
+    float:right;
+    margin-right: 25%;
+    margin-top: 1%;
+}
+
+#izmjenaSifre
+{
+    margin-bottom: 5%;
+    font-family: 'Rokkitt', serif;
+    width: 25%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 20px;
+    padding-top: 2%;
+    padding-bottom: -3%;
+    padding-left: 2%;
+    height: 170px;
+    border: 5px solid #331919;
+
 }
