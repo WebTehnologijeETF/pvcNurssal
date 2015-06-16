@@ -28,19 +28,40 @@
       <file leaf-file-name="NurssalKontakt.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/NurssalKontakt.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="3757" max-vertical-offset="3859">
-              <caret line="226" column="0" selection-start-line="178" selection-start-column="0" selection-end-line="208" selection-end-column="106" />
+            <state vertical-scroll-proportion="53.615383" vertical-offset="1751" max-vertical-offset="3859">
+              <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
               <folding>
                 <element signature="e#1352#1625#0#PHP" expanded="false" />
+                <marker date="1432814583806" expanded="true" signature="38:814" placeholder="..." />
+                <marker date="1432814583806" expanded="true" signature="59:119" placeholder="..." />
+                <marker date="1432814583806" expanded="true" signature="140:706" placeholder="..." />
+                <marker date="1432814583806" expanded="true" signature="145:699" placeholder="..." />
+                <marker date="1432814583806" expanded="true" signature="766:811" placeholder="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="NurssalAdmin.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="NurssalDetaljnaVijest.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/NurssalDetaljnaVijest.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.6414763" vertical-offset="2423" max-vertical-offset="2992">
+              <caret line="164" column="0" selection-start-line="164" selection-start-column="0" selection-end-line="164" selection-end-column="0" />
+              <folding>
+                <marker date="1432835764439" expanded="true" signature="2391:2472" placeholder="INSERT INTO ..." />
+                <marker date="1432835764439" expanded="true" signature="3323:3459" placeholder="SELECT Autor..komentar..." />
+                <marker date="1432835764439" expanded="true" signature="3945:4059" placeholder="..." />
+                <marker date="1432835764439" expanded="true" signature="5475:6083" placeholder="..." />
+                <marker date="1432835764439" expanded="true" signature="6179:6718" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NurssalAdmin.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/NurssalAdmin.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="1.2688928" vertical-offset="859" max-vertical-offset="1887">
+            <state vertical-scroll-proportion="-27.76923" vertical-offset="859" max-vertical-offset="1887">
               <caret line="93" column="50" selection-start-line="93" selection-start-column="50" selection-end-line="93" selection-end-column="50" />
               <folding>
                 <marker date="1432819990382" expanded="true" signature="2384:2415" placeholder="SELECT Usern..vijest..." />
@@ -73,13 +94,13 @@
         <option value="$PROJECT_DIR$/Stranica/NurssalAdmin.php" />
         <option value="$PROJECT_DIR$/NurssalNaslovna.php" />
         <option value="$PROJECT_DIR$/NurssalCjenovnik.html" />
-        <option value="$PROJECT_DIR$/NurssalDetaljnaVijest.php" />
         <option value="$PROJECT_DIR$/NurssalFotografije.html" />
         <option value="$PROJECT_DIR$/NurssalONama.html" />
         <option value="$PROJECT_DIR$/NurssalProizvodi.html" />
         <option value="$PROJECT_DIR$/NurssalKontakt.php" />
         <option value="$PROJECT_DIR$/NurssalCSS.css" />
         <option value="$PROJECT_DIR$/NurssalAdmin.php" />
+        <option value="$PROJECT_DIR$/NurssalDetaljnaVijest.php" />
       </list>
     </option>
   </component>
@@ -116,6 +137,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -124,9 +146,18 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WT" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pvcNurssal" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -164,15 +195,15 @@
       <BehatRunner />
       <method />
     </configuration>
-    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
-      <method />
-    </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
       <node-options />
       <gulpfile />
       <tasks />
       <pass-parent-env-vars>false</pass-parent-env-vars>
       <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
       <method />
     </configuration>
     <list size="1">
@@ -203,20 +234,20 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21815519" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21815519" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32913387" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="PHP-CGI Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32861635" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
     <layout-to-restore>
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -237,9 +268,9 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21815519" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32861635" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32861635" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
     </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -278,6 +309,11 @@
           <caret line="179" column="0" selection-start-line="178" selection-start-column="0" selection-end-line="179" selection-end-column="0" />
           <folding>
             <element signature="e#1352#1625#0#PHP" expanded="false" />
+            <marker date="1432814583806" expanded="true" signature="38:814" placeholder="..." />
+            <marker date="1432814583806" expanded="true" signature="59:119" placeholder="..." />
+            <marker date="1432814583806" expanded="true" signature="140:706" placeholder="..." />
+            <marker date="1432814583806" expanded="true" signature="145:699" placeholder="..." />
+            <marker date="1432814583806" expanded="true" signature="766:811" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -317,6 +353,11 @@
           <caret line="179" column="0" selection-start-line="178" selection-start-column="0" selection-end-line="179" selection-end-column="0" />
           <folding>
             <element signature="e#1352#1625#0#PHP" expanded="false" />
+            <marker date="1432814583806" expanded="true" signature="38:814" placeholder="..." />
+            <marker date="1432814583806" expanded="true" signature="59:119" placeholder="..." />
+            <marker date="1432814583806" expanded="true" signature="140:706" placeholder="..." />
+            <marker date="1432814583806" expanded="true" signature="145:699" placeholder="..." />
+            <marker date="1432814583806" expanded="true" signature="766:811" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -356,6 +397,11 @@
           <caret line="205" column="80" selection-start-line="205" selection-start-column="80" selection-end-line="205" selection-end-column="80" />
           <folding>
             <element signature="e#1352#1625#0#PHP" expanded="false" />
+            <marker date="1432814583806" expanded="true" signature="38:814" placeholder="..." />
+            <marker date="1432814583806" expanded="true" signature="59:119" placeholder="..." />
+            <marker date="1432814583806" expanded="true" signature="140:706" placeholder="..." />
+            <marker date="1432814583806" expanded="true" signature="145:699" placeholder="..." />
+            <marker date="1432814583806" expanded="true" signature="766:811" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -409,6 +455,11 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#1352#1625#0#PHP" expanded="false" />
+            <marker date="1432814583806" expanded="true" signature="38:814" placeholder="..." />
+            <marker date="1432814583806" expanded="true" signature="59:119" placeholder="..." />
+            <marker date="1432814583806" expanded="true" signature="140:706" placeholder="..." />
+            <marker date="1432814583806" expanded="true" signature="145:699" placeholder="..." />
+            <marker date="1432814583806" expanded="true" signature="766:811" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -440,6 +491,11 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#1352#1625#0#PHP" expanded="false" />
+            <marker date="1432814583806" expanded="true" signature="38:814" placeholder="..." />
+            <marker date="1432814583806" expanded="true" signature="59:119" placeholder="..." />
+            <marker date="1432814583806" expanded="true" signature="140:706" placeholder="..." />
+            <marker date="1432814583806" expanded="true" signature="145:699" placeholder="..." />
+            <marker date="1432814583806" expanded="true" signature="766:811" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -471,6 +527,11 @@
           <caret line="208" column="0" selection-start-line="208" selection-start-column="0" selection-end-line="208" selection-end-column="0" />
           <folding>
             <element signature="e#1352#1625#0#PHP" expanded="false" />
+            <marker date="1432814583806" expanded="true" signature="38:814" placeholder="..." />
+            <marker date="1432814583806" expanded="true" signature="59:119" placeholder="..." />
+            <marker date="1432814583806" expanded="true" signature="140:706" placeholder="..." />
+            <marker date="1432814583806" expanded="true" signature="145:699" placeholder="..." />
+            <marker date="1432814583806" expanded="true" signature="766:811" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -580,16 +641,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/NurssalKontakt.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="3757" max-vertical-offset="3859">
-          <caret line="226" column="0" selection-start-line="178" selection-start-column="0" selection-end-line="208" selection-end-column="106" />
-          <folding>
-            <element signature="e#1352#1625#0#PHP" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/NurssalCSS.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="10793" max-vertical-offset="11492">
@@ -619,13 +670,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/NurssalDetaljnaVijest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="2121" max-vertical-offset="3009">
-          <caret line="36" column="62" selection-start-line="36" selection-start-column="62" selection-end-line="36" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/Desktop/pvcNurssal/NurssalDetaljnaVijest.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="80.42308" vertical-offset="2091" max-vertical-offset="3009">
@@ -642,11 +686,40 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/NurssalAdmin.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.2688928" vertical-offset="859" max-vertical-offset="1887">
+        <state vertical-scroll-proportion="-27.76923" vertical-offset="859" max-vertical-offset="1887">
           <caret line="93" column="50" selection-start-line="93" selection-start-column="50" selection-end-line="93" selection-end-column="50" />
           <folding>
             <marker date="1432819990382" expanded="true" signature="2384:2415" placeholder="SELECT Usern..vijest..." />
             <marker date="1432819990382" expanded="true" signature="2384:2428" placeholder="SELECT Usern..Administrator..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NurssalKontakt.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="53.615383" vertical-offset="1751" max-vertical-offset="3859">
+          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding>
+            <element signature="e#1352#1625#0#PHP" expanded="false" />
+            <marker date="1432814583806" expanded="true" signature="38:814" placeholder="..." />
+            <marker date="1432814583806" expanded="true" signature="59:119" placeholder="..." />
+            <marker date="1432814583806" expanded="true" signature="140:706" placeholder="..." />
+            <marker date="1432814583806" expanded="true" signature="145:699" placeholder="..." />
+            <marker date="1432814583806" expanded="true" signature="766:811" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NurssalDetaljnaVijest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6414763" vertical-offset="2423" max-vertical-offset="2992">
+          <caret line="164" column="0" selection-start-line="164" selection-start-column="0" selection-end-line="164" selection-end-column="0" />
+          <folding>
+            <marker date="1432835764439" expanded="true" signature="2391:2472" placeholder="INSERT INTO ..." />
+            <marker date="1432835764439" expanded="true" signature="3323:3459" placeholder="SELECT Autor..komentar..." />
+            <marker date="1432835764439" expanded="true" signature="3945:4059" placeholder="..." />
+            <marker date="1432835764439" expanded="true" signature="5475:6083" placeholder="..." />
+            <marker date="1432835764439" expanded="true" signature="6179:6718" placeholder="..." />
           </folding>
         </state>
       </provider>
